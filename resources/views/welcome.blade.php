@@ -39,7 +39,10 @@
         <div class="container">
             <div class="content">
                 <div class="title">Laravel 5</div>
+                <div id="example"></div>
             </div>
         </div>
+
+    <script src="{{ elixir('js/app.js') }}"></script>
     </body>
 </html>
