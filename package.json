@@ -7,8 +7,10 @@
   "devDependencies": {
     "bootstrap-sass": "^3.3.0",
     "gulp": "^3.9.1",
+    "jquery": "^3.1.0",
     "laravel-elixir": "^6.0.0-9",
     "laravel-elixir-webpack-official": "^1.0.2",
+    "marked": "^0.3.5",
     "react": "^15.2.1",
     "react-dom": "^15.2.1"
   }
