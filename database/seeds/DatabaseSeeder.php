@@ -2,6 +2,8 @@
 
 use Illuminate\Database\Seeder;
 
+use App\Model\Comment;
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -12,5 +14,16 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
+
+        Comment::create([
+            'author' => 'Pete Hunt',
+            'text' => 'Hey there!'
+        ]);
+
+        Comment::create([
+            'author' => 'Paul O’Shannessy',
+            'text' => 'React is *great*!'
+        ]);
+
     }
 }
